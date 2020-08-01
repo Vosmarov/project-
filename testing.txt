@@ -1,1 +1,39 @@
 suka
+<script>
+
+function maxmassive (max) {
+ 
+   for (var m =0; m < max; m++) {
+  var random = parseInt(Math.random() * max)
+      massive.push(random);
+  }
+  return random;
+}
+
+
+var massive = [];
+var answer = +prompt("Введите кол-во чисел в массиве");
+    maxmassive(answer);
+
+var Maxnumber = 23
+var mass = [];
+
+   var rand = parseInt(Math.random() * massive.length);
+  
+      for (var i = 0; i < massive.length; i++) {
+        
+         if (massive[i] > Maxnumber) {
+               mass.push[i];
+               }
+         }
+               
+         alert ("Числа больше 23: mass);
+   
+
+
+
+
+
+
+
+</script>
